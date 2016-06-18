@@ -16,7 +16,7 @@ namespace Lesson02_PartB
      * 
      * @class program 
      */
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
