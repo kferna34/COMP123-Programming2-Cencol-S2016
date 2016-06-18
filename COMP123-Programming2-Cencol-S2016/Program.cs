@@ -10,6 +10,20 @@ namespace COMP123_Programming2_Cencol_S2016
     {
         static void Main(string[] args)
         {
+            //call the hello world to console method
+            HelloWorldToConsole();
+        }
+        /*
+         * @description this is my Hello World method
+         * @method HelloWorldToConsole
+         * @return {string} HelloWorld
+         */
+         
+        public static string HelloWorldToConsole()
+        {
+            string HelloWorldString = "Hello,World!";
+            Console.WriteLine(HelloWorldString);
+            return HelloWorldString;
         }
     }
 }
