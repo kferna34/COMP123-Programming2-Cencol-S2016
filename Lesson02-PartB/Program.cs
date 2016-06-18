@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Date Modified: 05-13
  * 
  */
-namespace Lesson02_PartB
+namespace Lesson01_PartB
 {
     /*
      *this is the driver class for our program 
