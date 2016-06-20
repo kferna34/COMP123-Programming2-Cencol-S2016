@@ -44,14 +44,14 @@ namespace Lesson04
             List<Card> Deck = new List<Card>();
             CreateDeck(Deck);
         }
-        public static void CreateDeck(List<Card>deck)
+        public static void CreateDeck(List<Card> deck)
         {
             string suit = "";
             for (int i = 0; i < 4; i++)
             {
                 switch (i)
                 {
-                   case 0:
+                    case 0:
                         suit = "hearts";
                         break;
                     case 1:
@@ -70,6 +70,6 @@ namespace Lesson04
                 }
             }
         }
-        }
     }
 }
+
