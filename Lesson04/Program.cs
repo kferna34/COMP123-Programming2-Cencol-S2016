@@ -10,7 +10,8 @@ namespace Lesson04
     {
         static void Main(string[] args)
         {
-
+            //create instance of the student class
+            
         }
     }
 }
