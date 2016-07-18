@@ -19,7 +19,7 @@ namespace Lesson02UnitTest
             int result = Lesson02.Program.addXandY(x, y);
 
             //ASSERT
-            Assert.AreEqual(expectedResult, result)
+            Assert.AreEqual(expectedResult, result);
     }
         [TestMethod]
         public void addYtoXTestMethod()
@@ -30,7 +30,7 @@ namespace Lesson02UnitTest
             int expectedResult = 90;
 
             //ACT
-            int result = Program.addYToX(ref x, ref y);
+            int result = Program.addYtoX(ref x, ref y);
 
             //ASSERT
             Assert.AreEqual(expectedResult, result);
